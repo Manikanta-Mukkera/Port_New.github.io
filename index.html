@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        height: 100vh;
+        display: flex;
+    }
+    .left {
+        width: 50%;
+        background: #d9d9d9;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 40px;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .intro {
+        margin-top: 60px;
+    }
+    .intro h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .intro h1 {
+        font-size: 38px;
+        font-weight: bold;
+    }
+    .intro h4 {
+        font-size: 16px;
+        font-weight: normal;
+        color: gray;
+        margin-top: 8px;
+    }
+    .icons {
+        margin-top: 30px;
+        display: flex;
+        gap: 15px;
+    }
+    .icons a {
+        width: 40px;
+        height: 40px;
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+    }
+    .right {
+        width: 50%;
+        background: black;
+        color: white;
+        position: relative;
+    }
+    .navbar {
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .contact-btn {
+        padding: 8px 20px;
+        background: white;
+        color: black;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .profile {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .profile img {
+        max-height: 100%;
+        width: auto;
+        display: block;
+    }
+</style>
+</head>
+<body>
+
+<div class="left">
+    <div class="logo">Mani</div>
+    <div class="intro">
+        <h3>Hi, I am</h3>
+        <h1>Manikanta</h1>
+        <h4>Front-end Developer</h4>
+        <div class="icons">
+            <a href="">@</a>
+            <a href="https://github.com/Manikanta-Mukkera">Git</a>
+            <a href="#">in</a>
+        </div>
+    </div>
+</div>
+
+<div class="right">
+    <div class="navbar">
+        <a href="/aboutme.html">About me</a>
+        <a href="/skills.html">Skills</a>
+        <a href="/contactme.html">Contact Me</a>
+    </div>
+    <div class="profile">
+        <img src="jj.jpeg" alt="Profile">
+    </div>
+</div>
+
+<!-- FontAwesome for icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<h4>hello guys </h4>
+
+</body>
+</html>
+
